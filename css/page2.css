@@ -1,0 +1,141 @@
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+html, body {
+	height: 100%;
+	background-image: url("../images/background/pexels-christopher-beck-3792011.jpg");
+
+
+	
+
+
+}
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+
+:focus, :active {
+	outline: none; }
+ 
+ a:focus, a:active {
+	outline: none; }
+
+	ul li {
+		list-style: none; }
+	
+	a{
+		list-style: none;
+		text-decoration: none;
+	}
+
+	
+img{
+
+	max-width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: inherit;
+	font-size: inherit; }
+
+.container {
+	max-width: 1200px;
+
+}
+
+.wrapper-2 {
+	width: 100%;
+	min-height: 100%;
+	overflow: hidden; 
+	position: relative;
+}
+
+.page-2-link {
+	color:#B0B0B0;
+	font-family: Roboto;
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+
+}
+
+.page-2-link:hover{
+	color:#F9AE1E;
+}
+
+
+
+.page2-nav {
+	margin-bottom: 200px;
+	padding-top: 100px;
+	min-height: 200px;
+}
+
+
+
+.page2-text >p {
+	font-family: Roboto;
+	font-size: 22px;
+	line-height: 28px;
+	color: #fff;
+	line-height:2;
+	
+	
+
+
+
+}
+
+
+.photo {
+	overflow: hidden;
+}
+
+
+.picalex {
+	
+	border-radius: 20px;
+	overflow: hidden;
+	transition-duration: 1s;
+}
+
+.picalex:hover{
+	content:"";
+	transform: scale(1.1);
+}
+
+
+
+
+.subtext {
+	padding-top: 10px;
+	font-family: Roboto;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 22px;
+	text-align: center;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	color: #FFFFFF;
+
+}
+
+.sub-t {
+	font-family: Roboto;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 22px;
+	text-align: center;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	color: gold;
+
+}
